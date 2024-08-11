@@ -1,7 +1,7 @@
 import pandas as pd
 
 if __name__ == "__main__":
-    data_path = r"../Customer Data Analysis/"
+    data_path = r"../Customer-Data-Analysis-Starbucks/"
 
     # portfolio
     portfolio_df = pd.read_csv(data_path + "portfolio.csv", encoding="utf-8")
